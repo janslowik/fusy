@@ -1147,6 +1147,19 @@ test = ["pytest (>=6.2)", "virtualenv (>20)"]
 toml = ["setuptools (>=42)"]
 
 [[package]]
+name = "simpful"
+version = "2.6.2"
+description = "A user-friendly Python library for fuzzy logic"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = ">=1.12.0"
+requests = "*"
+scipy = ">=1.0.0"
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1375,7 +1388,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "542187053cbdfd1a8796e668e30ea4763471c6fe30cf0be4ba4c0dbf540e1588"
+content-hash = "06a573cbba2175b3538613051025424e2a72e1789070ef94c5e1ee73df80bc07"
 
 [metadata.files]
 appnope = [
@@ -2285,6 +2298,10 @@ send2trash = [
 setuptools-scm = [
     {file = "setuptools_scm-6.4.2-py3-none-any.whl", hash = "sha256:acea13255093849de7ccb11af9e1fb8bde7067783450cee9ef7a93139bddf6d4"},
     {file = "setuptools_scm-6.4.2.tar.gz", hash = "sha256:6833ac65c6ed9711a4d5d2266f8024cfa07c533a0e55f4c12f6eff280a5a9e30"},
+]
+simpful = [
+    {file = "simpful-2.6.2-py3-none-any.whl", hash = "sha256:a3c4bf8c9f35d181db18a890b054e3a98b3e6125008ed827259a5e018e734e36"},
+    {file = "simpful-2.6.2.tar.gz", hash = "sha256:8b6517e58b4ca024ffafe136a42978922e077098f5838a680f1cbccbcdbb01b6"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
